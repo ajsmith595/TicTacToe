@@ -1,0 +1,85 @@
+@font-face{
+    src: url("ROADWAY_.ttf");
+    font-family: Roadway;
+}
+h1, h3, button{
+    font-family: Roadway;
+}
+h3 a{
+    text-decoration: none !important;
+}
+
+table tr td button{
+    width: 5vw;
+    height: 5vw;
+    background-color: #eee;
+    color: black;
+    border: 1px #bebebe solid;
+    transition: background-color .1s linear, border .1s linear;
+    outline: 0;
+    font-size: 200%;
+}
+table tr td button:hover{
+    background-color: #d6d6d6;
+    border: 1px rgba(0,0,0,255) solid;
+}
+#game table{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button{
+    padding: 2%;
+    font-size: 150%;
+    border: 1px solid rgba(0,0,0,0);
+    transition: .1s border linear, .1s background-color linear;
+    outline: 0;
+}
+
+button:hover{
+    border: 1px solid #454545;
+}
+
+#playbtn, #resetbtn, #optionsbtne{
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 0.2%;
+    color: white;
+}
+#playbtn{
+    background-color: #00b159;
+    width: 30%;
+}
+#resetbtn{
+    background-color: #f25235;
+    width: 10%;
+}
+#optionsbtne{
+    background-color: #00b159;
+    width: 10%;
+}
+
+.gamebtnwin{
+    background-color:#f25235;
+    color: white;
+}
+.optionsbtn{
+    width: 15%;
+
+}
+button.selected{
+    background-color:#f25235;
+    color: white;
+}
+button.selected:hover{
+    background-color: #f36349;
+}
+
+button.deselected{
+    background-color: #BFBFBF;
+}
+button.deselected:hover{
+    background-color: #cbcbcb;
+}
